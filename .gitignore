@@ -103,5 +103,5 @@ $RECYCLE.BIN/
 .Trashes/
 ._*
 
-RecompModTool
+# RecompModTool intentionally tracked for Linux builds
 bin/
