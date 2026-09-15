@@ -1,0 +1,16 @@
+[manifest]
+id = "infinite_jetpac_lives"
+version = "1.0.0"
+display_name = "Infinite Jetpac Lives"
+description = "Gives the player infinite lives in the Jetpac mini-game"
+short_description = "Gives the player infinite lives in the Jetpac mini-game"
+authors = [ "cdalong" ]
+game_id = "dk64"
+minimum_recomp_version = "1.0.0"
+
+[inputs]
+elf_path = "build/mod.elf"
+mod_filename = "infinite_jetpac_lives"
+func_reference_syms_file = "Dk64Syms/dump.toml"
+data_reference_syms_files = [ "Dk64Syms/data_dump.toml" ]
+additional_files = ["thumb.dds"]
